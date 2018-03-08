@@ -1,0 +1,44 @@
+body{
+    font-family: Arial; 
+    font-size:12px;
+    background: grey;
+}
+header{
+    background-color: lightblue; 
+    padding: 6px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+nav{
+    text-align: center; 
+    background: #8cce8c;
+    border-radius: 6px;
+}
+header nav a{
+    color: #fff; 
+    background: green; 
+    padding: 5px;  
+    border-radius: 4px;
+}
+header nav a:hover{
+    color: #fff; 
+    background: darkgreen; 
+    padding: 8px;  
+    border-radius: 4px;
+}
+h1{
+    text-align: center;
+}
+main{
+    background: white; 
+    padding: 6px;
+}
+main section button{
+    color: black; 
+    text-align: center;
+    background: white; 
+    padding: 5px;  
+    border-radius: 4px;
+    border-color: black;
+    border-width: 3px;
+}
