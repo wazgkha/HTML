@@ -4,10 +4,10 @@ body{
     background: grey;
 }
 header{
-    background-color: lightblue; 
-    padding: 6px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+    background-color: rgb(104, 33, 122); 
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 nav{
     text-align: center; 
@@ -30,13 +30,23 @@ h1{
     text-align: center;
 }
 main{
-    background: white; 
+    background: whitesmoke; 
     padding: 6px;
 }
 main section button{
     background-color: white; 
     color: black; 
-    border: 2px solid tomato;
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 4px;
+}
+main section button:hover{
+    background-color: black; 
+    color: white; 
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 4px;
+    cursor: pointer;
 }
 main section p img{
     width: 200px;
@@ -49,3 +59,26 @@ main section{
 footer{
     padding: 5px;
 }
+main section{
+    background: lightgrey;
+}
+
+.background-aqua{
+    background: aqua;
+}
+
+.background-dark-blue{
+    background: darkblue;
+    color: wheat;
+}
+
+.background-purple{
+    background: rgb(104, 33, 122);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.top-headline{
+    color: rgb(230, 205, 69);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
