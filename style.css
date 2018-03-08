@@ -6,6 +6,7 @@ body{
 header{
     background-color: rgb(104, 33, 122); 
     padding: 8px;
+    background-image: url('images/header.jpg');
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -81,5 +82,6 @@ main section{
 .top-headline{
     color: rgb(230, 205, 69);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px white;
 } 
 

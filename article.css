@@ -1,4 +1,14 @@
-
 p.introduction{
     font-size: 16px;
+}
+main section article img{
+    display: block;
+    width: 400px;
+    margin: auto;
+}
+main section article figure{
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+    padding: 5px;
 }
