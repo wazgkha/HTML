@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<style>
+
+    .child{
+        background: tomato;
+        float: left;
+        height: 50px;
+        width:50%;
+    }
+
+    .child2{
+        background: teal;
+        height: 50px;
+        width:50%;
+        float: right;
+    }
+    
+    @media only screen and (max-width: 900px) {     
+    
+
+        .child{
+            background: tomato;
+            height: 50px;
+            width: 100%;
+        }
+
+        .child2{
+            background: teal;
+            height: 50px;
+            width: 100%;
+        }
+    
+    }
+    
+</style>
+</head>
+<body>
+
+    <div class="parent">
+    <div class="child"></div>
+    <div class="child2"></div>
+    </div>
+
+</body>
+</html>
