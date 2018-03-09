@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Documents</title>
+    
+        <style>
+
+            .displays-wrapper{
+                position:static;
+
+            }
+
+            .display-block{
+                display: block;
+            }
+
+            .display-inline-block-left{
+                display: inline-block;
+                margin-right: -2px;
+                text-align: center;               
+            }
+
+              .display-inline-block-right{
+                display: inline-block;
+                margin-left: -2px;
+                text-align: center;
+            }
+
+            .display-inline{
+                display: inline;
+            }
+
+            .display-none{
+                display: none;
+            }
+
+            .orange{
+                background-color: orange !important;
+            }
+            .violet{
+                background-color: blueviolet!important;
+                padding-left: 4px;
+                padding-right: 4px;
+                text-align: center;
+            }
+            .tomato{
+                background-color: tomato !important;
+                padding-left: 4px;
+                padding-right: 4px;
+                text-align: center;
+            }
+            .green{
+                background-color: green !important;
+            }
+
+
+        </style>
+    </head>
+
+    <Body>
+
+        <div class="displays-wrapper">
+            <div class="display-inline-block-left orange">
+                HELLO ORANGE BLOCK
+                <br>
+                <div class="display-inline-block violet">
+                    HELLO VIOLET BLOCK
+                </div>
+            </div>
+          
+            <div class="display-inline-block-right green">
+                HELLO GREEN BLOCK
+                <br>
+                <div class="display-inline-block tomato">
+                    HELLO TOMATO BLOCK
+                </div>
+            </div>
+        </div>
+
+        <div class="display-wrapper violet">
+            <div class="display-inline orange">
+                Hello inline
+            </div>
+        </div>
+        
+    </Body>
+
+</html>
