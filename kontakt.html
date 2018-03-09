@@ -1,0 +1,77 @@
+<!Doctype html>
+<html lang="pl">
+    <head>
+            <meta charset="UTF-8">
+            <title>Kontakt</title>
+            <link rel="stylesheet" href="style.css">   
+            <style>
+            form label{
+                width: 100px;
+                display: inline-block;
+            }
+            form div{
+                margin-bottom: 5p;
+            }
+            </style>  
+    </head>
+
+    <body>
+        <header>
+                <h1 class="top-headline">Oto nowy świat</h1>
+                <nav>
+                    <a class="article" href="index.html">
+                        Strona główna
+                        <div class="counter">
+                            20
+                        </div>
+                    </a>
+                    <a href="stacje.html">Nasze stacje</a>
+                    <a href="wspolpraca.html">Współpraca</a>
+                    <a href="kontakt.html">Kontakt</a>
+                </nav>
+        </header>
+
+        <main>
+            <br>
+           KONTAKT
+           <br>
+           <form>
+               <br>
+                <div>
+                <label for="first_name">Imię:</label>
+                <input type="text" name="imie" placeholder="Twoje imię" id="first_name" required>
+                </div><br><br>
+                <div>
+                    <label for="surname">Nazwisko</label>
+                    <input type="text" name="nazwisko" placeholder="Twoje nazwisko" id="surname" required>
+                </div><br><br>
+                <div>
+                <label for="email">E-mail</label>
+                <input type="text" name="email" placeholder="Twoj e-mail" id="email" required>
+                </div><br><br>
+                <div>
+                    <label for="text">Treść:</label><br><br>
+                    <div>
+                    <textarea style="width: 600px; height: 150px" name="email" placeholder="Wpisz swoją wiadomość" id="text" required></textarea>
+                    </div>
+                </div>
+                <div><br><br>
+                <button type="submit">Wyślij</button>
+                </div><br><br>
+            </form>
+        </main>
+
+        <footer class="background-purple">
+            &copy; KOSCOR 2018
+            <p>
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img style="border:0;width:88px;height:31px"
+                            src="http://jigsaw.w3.org/css-validator/images/vcss"
+                            alt="Poprawny CSS!" />
+                    </a>
+                </p>
+        </footer>
+    </body>
+</html>
+
+
