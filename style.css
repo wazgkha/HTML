@@ -101,3 +101,14 @@ main section{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 1px 1px white;
 } 
+
+@media only screen and (max-width: 500px) {   
+    
+    main section p img{
+        width: 100%;
+        margin-right: 5px;
+        float: none;
+        margin-right: 100%;
+    }
+
+}
